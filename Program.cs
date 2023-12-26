@@ -31,13 +31,14 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
     });
 
-// Add serilog
-builder.Logging.AddSerilog(new LoggerConfiguration()
-       .WriteTo.File("logs\\ecommmerceapp.log", rollingInterval: RollingInterval.Day)
-       .CreateLogger());
 
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
+
+// Add serilog
+builder.Logging.AddSerilog(new LoggerConfiguration()
+       .WriteTo.File("Logs\\eCommerceLog.log", rollingInterval: RollingInterval.Day)
+       .CreateLogger());
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
