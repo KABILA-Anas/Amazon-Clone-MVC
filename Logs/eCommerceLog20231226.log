@@ -1,0 +1,418 @@
+2023-12-26 13:10:41.430 +01:00 [INF] User profile is available. Using 'C:\Users\EliteBook 840 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-26 13:10:42.563 +01:00 [INF] Now listening on: https://localhost:7284
+2023-12-26 13:10:42.563 +01:00 [INF] Now listening on: http://localhost:5249
+2023-12-26 13:10:42.574 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 13:10:42.576 +01:00 [INF] Hosting environment: Development
+2023-12-26 13:10:42.577 +01:00 [INF] Content root path: C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\
+2023-12-26 13:10:43.606 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/ - -
+2023-12-26 13:10:43.792 +01:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Administrator|Customer)
+2023-12-26 13:10:43.886 +01:00 [INF] AuthenticationScheme: Cookies was challenged.
+2023-12-26 13:10:44.240 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Access/Login?ReturnUrl=%2F - -
+2023-12-26 13:10:44.245 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/ - - - 302 0 - 638.4226ms
+2023-12-26 13:10:44.321 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:10:44.486 +01:00 [INF] Route matched with {action = "Login", controller = "Access"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ECommerce.Controllers.AccessController (ECommerce).
+2023-12-26 13:10:44.522 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-26 13:10:44.918 +01:00 [INF] Executed ViewResult - view Login executed in 389.3653ms.
+2023-12-26 13:10:44.924 +01:00 [INF] Executed action ECommerce.Controllers.AccessController.Login (ECommerce) in 435.7368ms
+2023-12-26 13:10:44.924 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:10:44.934 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Access/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 694.1754ms
+2023-12-26 13:10:44.955 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/css/site.css?v=4m1F4BRO7-hG4LYs8XbtAy3Q_NbdyvaM6rIPzlXJRdY - -
+2023-12-26 13:10:44.956 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/ECommerce.styles.css?v=xmruH08jpLfNq4nf67gZ2ag7j-Kb-M1sHkOfipoJTcs - -
+2023-12-26 13:10:44.956 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:10:44.956 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/css/styles.css?v=3kzd251eUVA9WjzzrQoliRPJ7_84Jv-s5OGUzZWCJoo - -
+2023-12-26 13:10:44.967 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 11.4485ms
+2023-12-26 13:10:44.989 +01:00 [INF] Sending file. Request path: '/css/styles.css'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\css\styles.css'
+2023-12-26 13:10:44.989 +01:00 [INF] Sending file. Request path: '/ECommerce.styles.css'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\obj\Debug\net6.0\scopedcss\bundle\ECommerce.styles.css'
+2023-12-26 13:10:44.989 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\css\site.css'
+2023-12-26 13:10:44.990 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/css/site.css?v=4m1F4BRO7-hG4LYs8XbtAy3Q_NbdyvaM6rIPzlXJRdY - - - 200 262 text/css 35.1280ms
+2023-12-26 13:10:44.990 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/ECommerce.styles.css?v=xmruH08jpLfNq4nf67gZ2ag7j-Kb-M1sHkOfipoJTcs - - - 200 1126 text/css 35.0261ms
+2023-12-26 13:10:44.995 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/css/styles.css?v=3kzd251eUVA9WjzzrQoliRPJ7_84Jv-s5OGUzZWCJoo - - - 200 20084 text/css 39.9639ms
+2023-12-26 13:19:56.943 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7284/Access/Login application/x-www-form-urlencoded 227
+2023-12-26 13:19:56.954 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:19:57.009 +01:00 [INF] Route matched with {action = "Login", controller = "Access"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String, Boolean) on controller ECommerce.Controllers.AccessController (ECommerce).
+2023-12-26 13:19:57.076 +01:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-12-26 13:19:57.080 +01:00 [INF] Executing RedirectResult, redirecting to /Products.
+2023-12-26 13:19:57.080 +01:00 [INF] Executed action ECommerce.Controllers.AccessController.Login (ECommerce) in 70.9485ms
+2023-12-26 13:19:57.080 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:19:57.082 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7284/Access/Login application/x-www-form-urlencoded 227 - 302 0 - 138.2987ms
+2023-12-26 13:19:57.088 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Products - -
+2023-12-26 13:19:57.094 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:19:57.106 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller ECommerce.Controllers.ProductsController (ECommerce).
+2023-12-26 13:19:58.581 +01:00 [INF] Starting the GET Products request.
+2023-12-26 13:20:02.180 +01:00 [INF] Entity Framework Core 6.0.23 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-12-26 13:20:05.125 +01:00 [INF] Executed DbCommand (129ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-26 13:20:05.926 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-26 13:20:05.991 +01:00 [INF] GET Products request completed successfully.
+2023-12-26 13:20:06.010 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 13:20:06.320 +01:00 [INF] Executed ViewResult - view Index executed in 313.4884ms.
+2023-12-26 13:20:06.322 +01:00 [INF] Executed action ECommerce.Controllers.ProductsController.Index (ECommerce) in 9215.6178ms
+2023-12-26 13:20:06.323 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:20:06.339 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Products - - - 200 - text/html;+charset=utf-8 9250.6985ms
+2023-12-26 13:20:06.349 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/assets/Amazon-logo.png - -
+2023-12-26 13:20:06.367 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/81DYPIg55zL._AC_UL480_FMwebp_QL65_.png - -
+2023-12-26 13:20:06.368 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/91lOIcyFBiL._SY425_.jpg - -
+2023-12-26 13:20:06.368 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/61f1YfTkTDL._AC_UL480_QL65_.jpg - -
+2023-12-26 13:20:06.369 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/lib/jquery/dist/jquery.min.js - -
+2023-12-26 13:20:06.371 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-26 13:20:06.373 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-26 13:20:06.373 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:20:06.374 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.8376ms
+2023-12-26 13:20:06.375 +01:00 [INF] Sending file. Request path: '/images/61f1YfTkTDL._AC_UL480_QL65_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\61f1YfTkTDL._AC_UL480_QL65_.jpg'
+2023-12-26 13:20:06.375 +01:00 [INF] Sending file. Request path: '/images/91lOIcyFBiL._SY425_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\91lOIcyFBiL._SY425_.jpg'
+2023-12-26 13:20:06.375 +01:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\js\site.js'
+2023-12-26 13:20:06.376 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/61f1YfTkTDL._AC_UL480_QL65_.jpg - - - 200 7429 image/jpeg 7.4946ms
+2023-12-26 13:20:06.376 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 3.4988ms
+2023-12-26 13:20:06.376 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/51AOZq9HhEL.__AC_SX300_SY300_QL70_FMwebp_.webp - -
+2023-12-26 13:20:06.375 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/61ZDwijKtxL._AC_SY450_.jpg - -
+2023-12-26 13:20:06.376 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/91lOIcyFBiL._SY425_.jpg - - - 200 35212 image/jpeg 7.9568ms
+2023-12-26 13:20:06.376 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/71wpE+ZIehL._SX522_.jpg - -
+2023-12-26 13:20:06.377 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/71bktR0WafL._AC_SY695_.jpg - -
+2023-12-26 13:20:06.387 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/61S9CvdSw4L._AC_SY879_.jpg - -
+2023-12-26 13:20:06.394 +01:00 [INF] Sending file. Request path: '/images/71wpE+ZIehL._SX522_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\71wpE+ZIehL._SX522_.jpg'
+2023-12-26 13:20:06.394 +01:00 [INF] Sending file. Request path: '/images/61ZDwijKtxL._AC_SY450_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\61ZDwijKtxL._AC_SY450_.jpg'
+2023-12-26 13:20:06.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/71wpE+ZIehL._SX522_.jpg - - - 200 29002 image/jpeg 18.1972ms
+2023-12-26 13:20:06.395 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/61ZDwijKtxL._AC_SY450_.jpg - - - 200 21233 image/jpeg 19.1478ms
+2023-12-26 13:20:06.397 +01:00 [INF] Sending file. Request path: '/images/61S9CvdSw4L._AC_SY879_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\61S9CvdSw4L._AC_SY879_.jpg'
+2023-12-26 13:20:06.401 +01:00 [INF] Sending file. Request path: '/images/71bktR0WafL._AC_SY695_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\71bktR0WafL._AC_SY695_.jpg'
+2023-12-26 13:20:06.401 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/61S9CvdSw4L._AC_SY879_.jpg - - - 200 37970 image/jpeg 13.8498ms
+2023-12-26 13:20:06.402 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/71bktR0WafL._AC_SY695_.jpg - - - 200 70283 image/jpeg 24.5186ms
+2023-12-26 13:20:06.405 +01:00 [INF] Sending file. Request path: '/images/81DYPIg55zL._AC_UL480_FMwebp_QL65_.png'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\81DYPIg55zL._AC_UL480_FMwebp_QL65_.png'
+2023-12-26 13:20:06.405 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/81DYPIg55zL._AC_UL480_FMwebp_QL65_.png - - - 200 25472 image/png 37.7066ms
+2023-12-26 13:20:06.415 +01:00 [INF] Sending file. Request path: '/images/51AOZq9HhEL.__AC_SX300_SY300_QL70_FMwebp_.webp'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\51AOZq9HhEL.__AC_SX300_SY300_QL70_FMwebp_.webp'
+2023-12-26 13:20:06.416 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/51AOZq9HhEL.__AC_SX300_SY300_QL70_FMwebp_.webp - - - 200 4318 image/webp 39.6785ms
+2023-12-26 13:20:06.418 +01:00 [INF] Sending file. Request path: '/assets/Amazon-logo.png'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\assets\Amazon-logo.png'
+2023-12-26 13:20:06.418 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/assets/Amazon-logo.png - - - 200 43391 image/png 69.0038ms
+2023-12-26 13:20:06.593 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-26 13:20:06.596 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 223.3144ms
+2023-12-26 13:20:06.689 +01:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-26 13:20:06.689 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 320.5254ms
+2023-12-26 13:20:27.291 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Access/Logout - -
+2023-12-26 13:20:27.293 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.AccessController.Logout (ECommerce)'
+2023-12-26 13:20:27.300 +01:00 [INF] Route matched with {action = "Logout", controller = "Access"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller ECommerce.Controllers.AccessController (ECommerce).
+2023-12-26 13:20:27.304 +01:00 [INF] AuthenticationScheme: Cookies signed out.
+2023-12-26 13:20:27.305 +01:00 [INF] Executing RedirectResult, redirecting to /Access/Login.
+2023-12-26 13:20:27.305 +01:00 [INF] Executed action ECommerce.Controllers.AccessController.Logout (ECommerce) in 4.8862ms
+2023-12-26 13:20:27.305 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.AccessController.Logout (ECommerce)'
+2023-12-26 13:20:27.305 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Access/Logout - - - 302 0 - 14.0522ms
+2023-12-26 13:20:27.312 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Access/Login - -
+2023-12-26 13:20:27.313 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:20:27.313 +01:00 [INF] Route matched with {action = "Login", controller = "Access"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ECommerce.Controllers.AccessController (ECommerce).
+2023-12-26 13:20:27.314 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-26 13:20:27.318 +01:00 [INF] Executed ViewResult - view Login executed in 4.2459ms.
+2023-12-26 13:20:27.318 +01:00 [INF] Executed action ECommerce.Controllers.AccessController.Login (ECommerce) in 4.6374ms
+2023-12-26 13:20:27.318 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:20:27.318 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Access/Login - - - 200 - text/html;+charset=utf-8 6.2170ms
+2023-12-26 13:20:27.347 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/css/site.css?v=4m1F4BRO7-hG4LYs8XbtAy3Q_NbdyvaM6rIPzlXJRdY - -
+2023-12-26 13:20:27.349 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\css\site.css'
+2023-12-26 13:20:27.349 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/css/site.css?v=4m1F4BRO7-hG4LYs8XbtAy3Q_NbdyvaM6rIPzlXJRdY - - - 200 262 text/css 1.8093ms
+2023-12-26 13:20:27.351 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:20:27.351 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3829ms
+2023-12-26 13:21:45.575 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7284/Access/Login application/x-www-form-urlencoded 227
+2023-12-26 13:21:45.576 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:21:45.577 +01:00 [INF] Route matched with {action = "Login", controller = "Access"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String, Boolean) on controller ECommerce.Controllers.AccessController (ECommerce).
+2023-12-26 13:21:45.579 +01:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-12-26 13:21:45.579 +01:00 [INF] Executing RedirectResult, redirecting to /Products.
+2023-12-26 13:21:45.579 +01:00 [INF] Executed action ECommerce.Controllers.AccessController.Login (ECommerce) in 2.5602ms
+2023-12-26 13:21:45.579 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:21:45.580 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7284/Access/Login application/x-www-form-urlencoded 227 - 302 0 - 5.3838ms
+2023-12-26 13:21:45.583 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Products - -
+2023-12-26 13:21:45.588 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:21:45.588 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller ECommerce.Controllers.ProductsController (ECommerce).
+2023-12-26 13:21:45.589 +01:00 [INF] Starting the GET Products request.
+2023-12-26 13:21:45.595 +01:00 [INF] Entity Framework Core 6.0.23 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-12-26 13:21:45.602 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-26 13:21:45.625 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-26 13:21:45.631 +01:00 [INF] GET Products request completed successfully.
+2023-12-26 13:21:45.633 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 13:21:45.642 +01:00 [INF] Executed ViewResult - view Index executed in 10.044ms.
+2023-12-26 13:21:45.643 +01:00 [INF] Executed action ECommerce.Controllers.ProductsController.Index (ECommerce) in 54.8605ms
+2023-12-26 13:21:45.643 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:21:45.644 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Products - - - 200 - text/html;+charset=utf-8 60.3380ms
+2023-12-26 13:21:45.667 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/css/site.css?v=4m1F4BRO7-hG4LYs8XbtAy3Q_NbdyvaM6rIPzlXJRdY - -
+2023-12-26 13:21:45.668 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\css\site.css'
+2023-12-26 13:21:45.669 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/css/site.css?v=4m1F4BRO7-hG4LYs8XbtAy3Q_NbdyvaM6rIPzlXJRdY - - - 200 262 text/css 1.1770ms
+2023-12-26 13:21:45.676 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/assets/Amazon-logo.png - -
+2023-12-26 13:21:45.676 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/81DYPIg55zL._AC_UL480_FMwebp_QL65_.png - -
+2023-12-26 13:21:45.676 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/61f1YfTkTDL._AC_UL480_QL65_.jpg - -
+2023-12-26 13:21:45.677 +01:00 [INF] Sending file. Request path: '/images/81DYPIg55zL._AC_UL480_FMwebp_QL65_.png'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\81DYPIg55zL._AC_UL480_FMwebp_QL65_.png'
+2023-12-26 13:21:45.677 +01:00 [INF] Sending file. Request path: '/images/61f1YfTkTDL._AC_UL480_QL65_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\61f1YfTkTDL._AC_UL480_QL65_.jpg'
+2023-12-26 13:21:45.678 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/61f1YfTkTDL._AC_UL480_QL65_.jpg - - - 200 7429 image/jpeg 1.9035ms
+2023-12-26 13:21:45.678 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/81DYPIg55zL._AC_UL480_FMwebp_QL65_.png - - - 200 25472 image/png 1.6652ms
+2023-12-26 13:21:45.678 +01:00 [INF] Sending file. Request path: '/assets/Amazon-logo.png'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\assets\Amazon-logo.png'
+2023-12-26 13:21:45.679 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/assets/Amazon-logo.png - - - 200 43391 image/png 3.0899ms
+2023-12-26 13:21:45.680 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/lib/jquery/dist/jquery.min.js - -
+2023-12-26 13:21:45.680 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/91lOIcyFBiL._SY425_.jpg - -
+2023-12-26 13:21:45.681 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-26 13:21:45.681 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-26 13:21:45.682 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:21:45.682 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/51AOZq9HhEL.__AC_SX300_SY300_QL70_FMwebp_.webp - -
+2023-12-26 13:21:45.682 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/61ZDwijKtxL._AC_SY450_.jpg - -
+2023-12-26 13:21:45.682 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.5971ms
+2023-12-26 13:21:45.682 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/71wpE+ZIehL._SX522_.jpg - -
+2023-12-26 13:21:45.683 +01:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\js\site.js'
+2023-12-26 13:21:45.683 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/71bktR0WafL._AC_SY695_.jpg - -
+2023-12-26 13:21:45.683 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 2.0256ms
+2023-12-26 13:21:45.683 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/images/61S9CvdSw4L._AC_SY879_.jpg - -
+2023-12-26 13:21:45.686 +01:00 [INF] Sending file. Request path: '/images/71wpE+ZIehL._SX522_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\71wpE+ZIehL._SX522_.jpg'
+2023-12-26 13:21:45.686 +01:00 [INF] Sending file. Request path: '/images/51AOZq9HhEL.__AC_SX300_SY300_QL70_FMwebp_.webp'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\51AOZq9HhEL.__AC_SX300_SY300_QL70_FMwebp_.webp'
+2023-12-26 13:21:45.687 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/51AOZq9HhEL.__AC_SX300_SY300_QL70_FMwebp_.webp - - - 200 4318 image/webp 4.6254ms
+2023-12-26 13:21:45.687 +01:00 [INF] Sending file. Request path: '/images/61ZDwijKtxL._AC_SY450_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\61ZDwijKtxL._AC_SY450_.jpg'
+2023-12-26 13:21:45.687 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/71wpE+ZIehL._SX522_.jpg - - - 200 29002 image/jpeg 4.5258ms
+2023-12-26 13:21:45.687 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/61ZDwijKtxL._AC_SY450_.jpg - - - 200 21233 image/jpeg 5.1284ms
+2023-12-26 13:21:45.687 +01:00 [INF] Sending file. Request path: '/images/91lOIcyFBiL._SY425_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\91lOIcyFBiL._SY425_.jpg'
+2023-12-26 13:21:45.688 +01:00 [INF] Sending file. Request path: '/images/61S9CvdSw4L._AC_SY879_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\61S9CvdSw4L._AC_SY879_.jpg'
+2023-12-26 13:21:45.688 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/91lOIcyFBiL._SY425_.jpg - - - 200 35212 image/jpeg 7.9425ms
+2023-12-26 13:21:45.688 +01:00 [INF] Sending file. Request path: '/images/71bktR0WafL._AC_SY695_.jpg'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\images\71bktR0WafL._AC_SY695_.jpg'
+2023-12-26 13:21:45.688 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-26 13:21:45.688 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/61S9CvdSw4L._AC_SY879_.jpg - - - 200 37970 image/jpeg 5.2039ms
+2023-12-26 13:21:45.688 +01:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-26 13:21:45.688 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/images/71bktR0WafL._AC_SY695_.jpg - - - 200 70283 image/jpeg 5.7773ms
+2023-12-26 13:21:45.688 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 7.7634ms
+2023-12-26 13:21:45.689 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 8.9933ms
+2023-12-26 13:21:50.399 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7284/Cart/AddToCart application/x-www-form-urlencoded 237
+2023-12-26 13:21:50.401 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.CartController.AddToCart (ECommerce)'
+2023-12-26 13:21:50.409 +01:00 [INF] Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddToCart(Int32) on controller ECommerce.Controllers.CartController (ECommerce).
+2023-12-26 13:21:50.426 +01:00 [INF] Starting the AddToCart request.
+2023-12-26 13:21:50.430 +01:00 [INF] Cart retrieved from session.
+2023-12-26 13:21:50.714 +01:00 [INF] Entity Framework Core 6.0.23 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-12-26 13:21:51.046 +01:00 [INF] Executed DbCommand (161ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-26 13:21:51.073 +01:00 [INF] Product added to cart.
+2023-12-26 13:21:51.371 +01:00 [INF] AddToCart request completed successfully.
+2023-12-26 13:21:51.373 +01:00 [INF] Executing RedirectResult, redirecting to /Cart.
+2023-12-26 13:21:51.376 +01:00 [INF] Executed action ECommerce.Controllers.CartController.AddToCart (ECommerce) in 966.7161ms
+2023-12-26 13:21:51.377 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.CartController.AddToCart (ECommerce)'
+2023-12-26 13:21:51.383 +01:00 [INF] Session started; Key:8cf2b928-24f9-7f04-d7ac-51b91e0d8e92, Id:73834246-a544-6aa9-71fc-d25a54070721
+2023-12-26 13:21:51.388 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7284/Cart/AddToCart application/x-www-form-urlencoded 237 - 302 0 - 988.4948ms
+2023-12-26 13:21:51.399 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Cart - -
+2023-12-26 13:21:51.401 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.CartController.Index (ECommerce)'
+2023-12-26 13:21:51.408 +01:00 [INF] Route matched with {action = "Index", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ECommerce.Controllers.CartController (ECommerce).
+2023-12-26 13:21:51.502 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 13:21:51.643 +01:00 [INF] Executed ViewResult - view Index executed in 143.9565ms.
+2023-12-26 13:21:51.644 +01:00 [INF] Executed action ECommerce.Controllers.CartController.Index (ECommerce) in 235.8373ms
+2023-12-26 13:21:51.644 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.CartController.Index (ECommerce)'
+2023-12-26 13:21:51.645 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Cart - - - 200 - text/html;+charset=utf-8 246.1886ms
+2023-12-26 13:21:51.713 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:21:51.714 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.9030ms
+2023-12-26 13:21:54.773 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Products - -
+2023-12-26 13:21:54.774 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:21:54.774 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller ECommerce.Controllers.ProductsController (ECommerce).
+2023-12-26 13:21:54.775 +01:00 [INF] Starting the GET Products request.
+2023-12-26 13:21:54.777 +01:00 [INF] Entity Framework Core 6.0.23 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-12-26 13:21:54.779 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-26 13:21:54.784 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-26 13:21:54.786 +01:00 [INF] GET Products request completed successfully.
+2023-12-26 13:21:54.787 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 13:21:54.796 +01:00 [INF] Executed ViewResult - view Index executed in 9.6223ms.
+2023-12-26 13:21:54.797 +01:00 [INF] Executed action ECommerce.Controllers.ProductsController.Index (ECommerce) in 22.2707ms
+2023-12-26 13:21:54.797 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:21:54.797 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Products - - - 200 - text/html;+charset=utf-8 24.0139ms
+2023-12-26 13:21:54.828 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:21:54.829 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3677ms
+2023-12-26 13:21:57.731 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7284/Cart/AddToCart application/x-www-form-urlencoded 237
+2023-12-26 13:21:57.741 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.CartController.AddToCart (ECommerce)'
+2023-12-26 13:21:57.742 +01:00 [INF] Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddToCart(Int32) on controller ECommerce.Controllers.CartController (ECommerce).
+2023-12-26 13:21:57.747 +01:00 [INF] Starting the AddToCart request.
+2023-12-26 13:21:57.749 +01:00 [INF] Cart retrieved from session.
+2023-12-26 13:21:57.755 +01:00 [INF] Entity Framework Core 6.0.23 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-12-26 13:21:57.770 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-26 13:21:57.777 +01:00 [INF] Product added to cart.
+2023-12-26 13:21:57.779 +01:00 [INF] AddToCart request completed successfully.
+2023-12-26 13:21:57.780 +01:00 [INF] Executing RedirectResult, redirecting to /Cart.
+2023-12-26 13:21:57.781 +01:00 [INF] Executed action ECommerce.Controllers.CartController.AddToCart (ECommerce) in 38.5809ms
+2023-12-26 13:21:57.782 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.CartController.AddToCart (ECommerce)'
+2023-12-26 13:21:57.784 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7284/Cart/AddToCart application/x-www-form-urlencoded 237 - 302 0 - 53.2897ms
+2023-12-26 13:21:57.796 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Cart - -
+2023-12-26 13:21:57.798 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.CartController.Index (ECommerce)'
+2023-12-26 13:21:57.798 +01:00 [INF] Route matched with {action = "Index", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ECommerce.Controllers.CartController (ECommerce).
+2023-12-26 13:21:57.800 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 13:21:57.804 +01:00 [INF] Executed ViewResult - view Index executed in 3.9347ms.
+2023-12-26 13:21:57.804 +01:00 [INF] Executed action ECommerce.Controllers.CartController.Index (ECommerce) in 5.7997ms
+2023-12-26 13:21:57.805 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.CartController.Index (ECommerce)'
+2023-12-26 13:21:57.806 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Cart - - - 200 - text/html;+charset=utf-8 9.9428ms
+2023-12-26 13:21:57.865 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:21:57.866 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 1.1332ms
+2023-12-26 13:22:05.835 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Products - -
+2023-12-26 13:22:05.836 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:22:05.836 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller ECommerce.Controllers.ProductsController (ECommerce).
+2023-12-26 13:22:05.837 +01:00 [INF] Starting the GET Products request.
+2023-12-26 13:22:05.838 +01:00 [INF] Entity Framework Core 6.0.23 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-12-26 13:22:05.841 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-26 13:22:05.844 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-26 13:22:05.846 +01:00 [INF] GET Products request completed successfully.
+2023-12-26 13:22:05.847 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 13:22:05.853 +01:00 [INF] Executed ViewResult - view Index executed in 6.5475ms.
+2023-12-26 13:22:05.854 +01:00 [INF] Executed action ECommerce.Controllers.ProductsController.Index (ECommerce) in 17.4189ms
+2023-12-26 13:22:05.854 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:22:05.854 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Products - - - 200 - text/html;+charset=utf-8 19.2132ms
+2023-12-26 13:22:05.880 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:22:05.881 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3072ms
+2023-12-26 13:22:06.742 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Cart - -
+2023-12-26 13:22:06.742 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.CartController.Index (ECommerce)'
+2023-12-26 13:22:06.743 +01:00 [INF] Route matched with {action = "Index", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ECommerce.Controllers.CartController (ECommerce).
+2023-12-26 13:22:06.743 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 13:22:06.746 +01:00 [INF] Executed ViewResult - view Index executed in 3.074ms.
+2023-12-26 13:22:06.747 +01:00 [INF] Executed action ECommerce.Controllers.CartController.Index (ECommerce) in 3.998ms
+2023-12-26 13:22:06.747 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.CartController.Index (ECommerce)'
+2023-12-26 13:22:06.747 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Cart - - - 200 - text/html;+charset=utf-8 5.4786ms
+2023-12-26 13:22:06.776 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:22:06.777 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.5162ms
+2023-12-26 13:22:11.904 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Products - -
+2023-12-26 13:22:11.906 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:22:11.906 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller ECommerce.Controllers.ProductsController (ECommerce).
+2023-12-26 13:22:11.907 +01:00 [INF] Starting the GET Products request.
+2023-12-26 13:22:11.908 +01:00 [INF] Entity Framework Core 6.0.23 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-12-26 13:22:11.912 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-26 13:22:11.915 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-26 13:22:11.919 +01:00 [INF] GET Products request completed successfully.
+2023-12-26 13:22:11.919 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 13:22:11.923 +01:00 [INF] Executed ViewResult - view Index executed in 4.0133ms.
+2023-12-26 13:22:11.924 +01:00 [INF] Executed action ECommerce.Controllers.ProductsController.Index (ECommerce) in 17.7132ms
+2023-12-26 13:22:11.924 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:22:11.925 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Products - - - 200 - text/html;+charset=utf-8 20.0710ms
+2023-12-26 13:22:11.981 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:22:11.982 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.3497ms
+2023-12-26 13:22:17.665 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7284/Cart/AddToCart application/x-www-form-urlencoded 237
+2023-12-26 13:22:17.667 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.CartController.AddToCart (ECommerce)'
+2023-12-26 13:22:17.668 +01:00 [INF] Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddToCart(Int32) on controller ECommerce.Controllers.CartController (ECommerce).
+2023-12-26 13:22:17.670 +01:00 [INF] Starting the AddToCart request.
+2023-12-26 13:22:17.671 +01:00 [INF] Cart retrieved from session.
+2023-12-26 13:22:17.679 +01:00 [INF] Entity Framework Core 6.0.23 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-12-26 13:22:17.691 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2023-12-26 13:22:17.693 +01:00 [INF] Product added to cart.
+2023-12-26 13:22:17.695 +01:00 [INF] AddToCart request completed successfully.
+2023-12-26 13:22:17.696 +01:00 [INF] Executing RedirectResult, redirecting to /Cart.
+2023-12-26 13:22:17.697 +01:00 [INF] Executed action ECommerce.Controllers.CartController.AddToCart (ECommerce) in 27.4175ms
+2023-12-26 13:22:17.698 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.CartController.AddToCart (ECommerce)'
+2023-12-26 13:22:17.700 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7284/Cart/AddToCart application/x-www-form-urlencoded 237 - 302 0 - 35.6074ms
+2023-12-26 13:22:17.713 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Cart - -
+2023-12-26 13:22:17.714 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.CartController.Index (ECommerce)'
+2023-12-26 13:22:17.714 +01:00 [INF] Route matched with {action = "Index", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ECommerce.Controllers.CartController (ECommerce).
+2023-12-26 13:22:17.718 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 13:22:17.721 +01:00 [INF] Executed ViewResult - view Index executed in 3.4661ms.
+2023-12-26 13:22:17.721 +01:00 [INF] Executed action ECommerce.Controllers.CartController.Index (ECommerce) in 6.7327ms
+2023-12-26 13:22:17.722 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.CartController.Index (ECommerce)'
+2023-12-26 13:22:17.722 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Cart - - - 200 - text/html;+charset=utf-8 9.4679ms
+2023-12-26 13:22:17.779 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/css/site.css?v=4m1F4BRO7-hG4LYs8XbtAy3Q_NbdyvaM6rIPzlXJRdY - -
+2023-12-26 13:22:17.783 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\EliteBook 840 G5\Documents\ILISI\ILISI3\Dot.Net\ECommerce\wwwroot\css\site.css'
+2023-12-26 13:22:17.784 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/css/site.css?v=4m1F4BRO7-hG4LYs8XbtAy3Q_NbdyvaM6rIPzlXJRdY - - - 200 262 text/css 5.9693ms
+2023-12-26 13:22:17.789 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:22:17.790 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.7689ms
+2023-12-26 13:22:31.096 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Products - -
+2023-12-26 13:22:31.097 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:22:31.098 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller ECommerce.Controllers.ProductsController (ECommerce).
+2023-12-26 13:22:31.098 +01:00 [INF] Starting the GET Products request.
+2023-12-26 13:22:31.100 +01:00 [INF] Entity Framework Core 6.0.23 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-12-26 13:22:31.102 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-26 13:22:31.105 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-26 13:22:31.107 +01:00 [INF] GET Products request completed successfully.
+2023-12-26 13:22:31.107 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 13:22:31.110 +01:00 [INF] Executed ViewResult - view Index executed in 2.8452ms.
+2023-12-26 13:22:31.111 +01:00 [INF] Executed action ECommerce.Controllers.ProductsController.Index (ECommerce) in 12.7188ms
+2023-12-26 13:22:31.111 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:22:31.112 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Products - - - 200 - text/html;+charset=utf-8 15.5691ms
+2023-12-26 13:22:31.140 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:22:31.140 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2238ms
+2023-12-26 13:22:32.157 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Access/Logout - -
+2023-12-26 13:22:32.157 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.AccessController.Logout (ECommerce)'
+2023-12-26 13:22:32.158 +01:00 [INF] Route matched with {action = "Logout", controller = "Access"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller ECommerce.Controllers.AccessController (ECommerce).
+2023-12-26 13:22:32.159 +01:00 [INF] AuthenticationScheme: Cookies signed out.
+2023-12-26 13:22:32.159 +01:00 [INF] Executing RedirectResult, redirecting to /Access/Login.
+2023-12-26 13:22:32.159 +01:00 [INF] Executed action ECommerce.Controllers.AccessController.Logout (ECommerce) in 1.4969ms
+2023-12-26 13:22:32.159 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.AccessController.Logout (ECommerce)'
+2023-12-26 13:22:32.160 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Access/Logout - - - 302 0 - 3.1259ms
+2023-12-26 13:22:32.165 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Access/Login - -
+2023-12-26 13:22:32.166 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:22:32.167 +01:00 [INF] Route matched with {action = "Login", controller = "Access"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ECommerce.Controllers.AccessController (ECommerce).
+2023-12-26 13:22:32.167 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-26 13:22:32.170 +01:00 [INF] Executed ViewResult - view Login executed in 2.9231ms.
+2023-12-26 13:22:32.171 +01:00 [INF] Executed action ECommerce.Controllers.AccessController.Login (ECommerce) in 3.8333ms
+2023-12-26 13:22:32.171 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:22:32.172 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Access/Login - - - 200 - text/html;+charset=utf-8 6.7455ms
+2023-12-26 13:22:32.200 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:22:32.200 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.2597ms
+2023-12-26 13:22:38.484 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7284/Access/Login application/x-www-form-urlencoded 221
+2023-12-26 13:22:38.485 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:22:38.485 +01:00 [INF] Route matched with {action = "Login", controller = "Access"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String, Boolean) on controller ECommerce.Controllers.AccessController (ECommerce).
+2023-12-26 13:22:38.486 +01:00 [INF] AuthenticationScheme: Cookies signed in.
+2023-12-26 13:22:38.487 +01:00 [INF] Executing RedirectResult, redirecting to /Products.
+2023-12-26 13:22:38.487 +01:00 [INF] Executed action ECommerce.Controllers.AccessController.Login (ECommerce) in 1.8827ms
+2023-12-26 13:22:38.487 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:22:38.488 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7284/Access/Login application/x-www-form-urlencoded 221 - 302 0 - 3.6342ms
+2023-12-26 13:22:38.492 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Products - -
+2023-12-26 13:22:38.493 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:22:38.493 +01:00 [INF] Route matched with {action = "Index", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.Nullable`1[System.Int32]) on controller ECommerce.Controllers.ProductsController (ECommerce).
+2023-12-26 13:22:38.494 +01:00 [INF] Starting the GET Products request.
+2023-12-26 13:22:38.496 +01:00 [INF] Entity Framework Core 6.0.23 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-12-26 13:22:38.499 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Categories] AS [c]
+2023-12-26 13:22:38.503 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Image], [p].[Name], [p].[Price], [c].[Id], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2023-12-26 13:22:38.504 +01:00 [INF] GET Products request completed successfully.
+2023-12-26 13:22:38.505 +01:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 13:22:38.512 +01:00 [INF] Executed ViewResult - view Index executed in 7.101ms.
+2023-12-26 13:22:38.513 +01:00 [INF] Executed action ECommerce.Controllers.ProductsController.Index (ECommerce) in 18.9578ms
+2023-12-26 13:22:38.513 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.ProductsController.Index (ECommerce)'
+2023-12-26 13:22:38.514 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Products - - - 200 - text/html;+charset=utf-8 21.2808ms
+2023-12-26 13:22:38.541 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:22:38.541 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.4605ms
+2023-12-26 13:22:40.676 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Access/Logout - -
+2023-12-26 13:22:40.676 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.AccessController.Logout (ECommerce)'
+2023-12-26 13:22:40.677 +01:00 [INF] Route matched with {action = "Logout", controller = "Access"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller ECommerce.Controllers.AccessController (ECommerce).
+2023-12-26 13:22:40.678 +01:00 [INF] AuthenticationScheme: Cookies signed out.
+2023-12-26 13:22:40.679 +01:00 [INF] Executing RedirectResult, redirecting to /Access/Login.
+2023-12-26 13:22:40.679 +01:00 [INF] Executed action ECommerce.Controllers.AccessController.Logout (ECommerce) in 1.5866ms
+2023-12-26 13:22:40.680 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.AccessController.Logout (ECommerce)'
+2023-12-26 13:22:40.681 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Access/Logout - - - 302 0 - 4.8896ms
+2023-12-26 13:22:40.685 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/Access/Login - -
+2023-12-26 13:22:40.686 +01:00 [INF] Executing endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:22:40.686 +01:00 [INF] Route matched with {action = "Login", controller = "Access"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ECommerce.Controllers.AccessController (ECommerce).
+2023-12-26 13:22:40.686 +01:00 [INF] Executing ViewResult, running view Login.
+2023-12-26 13:22:40.687 +01:00 [INF] Executed ViewResult - view Login executed in 1.0235ms.
+2023-12-26 13:22:40.688 +01:00 [INF] Executed action ECommerce.Controllers.AccessController.Login (ECommerce) in 1.532ms
+2023-12-26 13:22:40.688 +01:00 [INF] Executed endpoint 'ECommerce.Controllers.AccessController.Login (ECommerce)'
+2023-12-26 13:22:40.689 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/Access/Login - - - 200 - text/html;+charset=utf-8 3.4332ms
+2023-12-26 13:22:40.733 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 13:22:40.734 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 0.6607ms
